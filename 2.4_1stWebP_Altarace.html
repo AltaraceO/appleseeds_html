@@ -6,26 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ori's Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        .enhance{
+            color: pink;
+            background-color: black;
+        }
+    </style>
 
 </head>
 <body>
-    <h1>Hello, my name is Ori!</h1>
+    <div>
+        <h1>Hello, my name is Ori!</h1>
 
-    <h4>I am a programmer</h4>
-
-    <img src="/ProfileImg/me-23.png" alt="my face" width="100">
-
-    <p>There is nothing in the world I love more than building things. A close-second favorite is <em>learning</em> new skills <br>
-    Programming is the perfect combination of the two. Watch this space to follow my progress...</p>
-
-    <p><strong>Follow me on...</strong></p>
+        <h4>I am a programmer</h4>
     
-    <ul>
+        <img src="/ProfileImg/me-23.png" alt="my face" width="100">
+
+    </div>
+    <div>
+    <ul id="main-header">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
+    <div id="about" class="card">
+
+        <p>There is nothing in the world I love more than building things. A close-second favorite is <em>learning</em> new skills <br>
+        Programming is the perfect combination of the two. <span class="enhance"> this space to follow my progress...</span></p>
+
+    </div>
+
+   
+    
+    <ul id="soaical nav">
+
+        <h3>Follow me on...</h3>
+
         <li><a href="https://www.linkedin.com/in/ori-a-3571a01a7" target="_blank"><i class="fab fa-linkedin"></i></a></li>
         <li><a href="https://www.twitter.com/Ori32642448" target="_blank"><i class="fab fa-twitter"></i></a></li>
         <li><a href="https://www.facebook.com/ori.altarace.7" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 
     </ul>
+
+    <div id="contact" class="card">
+        <h3> Contact me</h3>
+        <ul>
+            <li>Address: 3 Nadav street, Haifa</li>
+            <li>Phone: (052)678-7457</li>
+            <li>Email: orialtarace@gmail.com</li>
+        </ul>
+
+    </div>
     <form action="">
         <input type="text">
         <button>email</button>

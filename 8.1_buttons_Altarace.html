@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons</title>
+    <style>
+      button {
+        color: white;
+        font-size: 20px;
+      }
+      .container {
+        height: 900px;
+        width: 900px;
+        text-align: center;
+        border: 1px black solid;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        color: white;
+        background: #334660;
+      }
+      .large {
+        padding: 12px 40px;
+        font-size: 20px;
+      }
+      .medium {
+        padding: 7px 30px;
+        font-size: 17px;
+      }
+      .small {
+        padding: 5px 15px;
+        font-size: 15px;
+      }
+      .green {
+        background: #00dd77;
+        border-color: #00dd77;
+      }
+      .red {
+        background: #fd2323;
+        border-color: #fd2323;
+      }
+      .blue {
+        background: #1790dd;
+        border-color: #1790dd;
+      }
+      .orange {
+        background: #f57901;
+        border-color: #f57901;
+      }
+      .yellow {
+        background: #f6cd05;
+        border-color: #f6cd05;
+      }
+      .grey {
+        background: #4b586e;
+        border-color: #4b586e;
+      }
+      .flat {
+        margin: 50px;
+        border: none;
+      }
+      .flat:hover {
+        background: darkgreen;
+      }
+      .Round {
+        margin: 50px;
+        border-radius: 15em;
+        border: 5px;
+      }
+      .Round:hover {
+        background: rgb(136, 76, 2);
+      }
+      .FlatGhost {
+        margin: 50px;
+        border-width: 5px;
+        background-color: #334660;
+      }
+      .FlatGhost:hover {
+        background: #00dd77;
+      }
+      .RoundGhost {
+        margin: 50px;
+        border-radius: 15em;
+        border-width: 5px;
+        background-color: #334660;
+      }
+      .RoundGhost:hover {
+        background: #f57901;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h2>Flat</h2>
+        <br />
+        <button class="flat green large">Register</button>
+        <button class="flat red medium">Clear</button>
+        <button class="flat blue small">Submit</button>
+      </div>
+      <div>
+        <h2>Round</h2>
+        <br />
+        <button class="Round orange large">Register</button
+        ><button class="Round yellow medium">Clear</button
+        ><button class="Round grey small">Submit</button>
+      </div>
+      <div>
+        <h2>FlatGhost</h2>
+        <br />
+        <button class="FlatGhost green large">Register</button
+        ><button class="FlatGhost red medium">Clear</button
+        ><button class="FlatGhost blue small">Submit</button>
+      </div>
+      <div>
+        <h2>RoundGhost</h2>
+        <br />
+        <button class="RoundGhost orange large">Register</button
+        ><button class="RoundGhost yellow medium">Clear</button
+        ><button class="RoundGhost grey small">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>

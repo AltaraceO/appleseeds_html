@@ -22,31 +22,17 @@
       body {
         background-image: url(/HTML/ProfileImgs/cloud.jpeg);
         font-family: "Roboto", sans-serif;
-        color: #162c35;
       }
-      .container {
-        display: flex;
+      .main {
+        margin: auto;
+        width: 700px;
+        margin-top: 70px;
+        color: #34687d;
+        height: 4000px;
       }
-      .box {
-        padding: 1rem;
-        margin: 1rem;
-        background-color: rgba(204, 255, 255, 0.3);
-        border-radius: 15px;
-      }
-      .box li {
-        list-style: none;
-      }
-
-      .card {
-        border: 1px solid rgb(235, 152, 152);
-        border-radius: 15px;
-        background: #f4f4f4;
-        padding: 20px;
-        margin-bottom: 10px;
-        opacity: 85%;
-      }
-
       .navMenu {
+        position: sticky;
+        top: 0;
         list-style: none;
         margin: 0;
         padding: 0;
@@ -69,18 +55,33 @@
         background-color: #3e7d95;
         color: whitesmoke;
       }
-      .enhance {
-        color: black;
-        background-color: lightblue;
+      .container {
+        display: flex;
       }
+      .box {
+        padding: 1rem;
+        margin: 1rem;
+        background-color: rgba(204, 255, 255, 0.3);
+        border-radius: 15px;
+        width: 55%;
+        display: inline-block;
+      }
+      .box li {
+        list-style: none;
+      }
+
+      .card {
+        border: 1px solid rgb(235, 152, 152);
+        border-radius: 15px;
+        background: #f4f4f4;
+        padding: 10px;
+        margin-bottom: 10px;
+        opacity: 85%;
+      }
+
       img {
         opacity: 85%;
         border-radius: 20%;
-      }
-      .main {
-        margin: auto;
-        width: 700px;
-        margin-top: 70px;
       }
       #nav {
         float: right;
@@ -100,29 +101,26 @@
   </head>
   <body>
     <div class="main">
-      <div>
-        <h1>Hello, my name is Ori!</h1>
+      <h1>Hello, my name is Ori!</h1>
 
-        <h4>I am a programmer</h4>
+      <h4>I am a programmer</h4>
 
-        <!-- <div id="nav" class="box"> -->
-        <ul class="navMenu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <!-- </div> -->
+      <ul class="navMenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
 
-        <img src="/HTML/ProfileImgs/me-23.png" alt="my face" width="100" />
-      </div>
-      <div id="about" class="card">
+      <img src="/HTML/ProfileImgs/me-23.png" alt="my face" width="100" />
+
+      <div class="card">
         <p>
           There is nothing in the world I love more than building things. A
-          close-second favorite is <em>learning</em> new skills <br />
-          Programming is the perfect combination of the two.
-          <span class="enhance">
-            Watch this space to follow my progress...</span
-          >
+          close-second favorite is learning new skills. Programming is the
+          perfect combination of the two.
+          <br />
+          <br />
+          Watch this space to follow my progress...
         </p>
       </div>
 

@@ -26,21 +26,38 @@
       }
       html {
         font-size: 10px;
+        font-family: "Roboto", sans-serif;
+      }
+
+      .landing {
+        height: 100vh;
+        background: url("/ProfileImgs/cloud.jpeg") no-repeat center center;
+        background-size: cover;
+      }
+
+      .landing h1 {
+        text-align: center;
+        padding-top: 50rem;
+        font-size: 6rem;
+        color: #333;
+      }
+
+      .landing h4 {
+        text-align: center;
+        padding-top: 10rem;
+        font-size: 4rem;
+        color: #333;
       }
       .main {
-        background: url(/ProfileImgs/cloud.jpeg) no-repeat;
-        font-family: "Roboto", sans-serif;
-        margin: auto;
-        width: 100vw;
+        background: url(/ProfileImgs/cloud.jpeg) no-repeat center center;
+        background-size: cover;
+
         color: #34687d;
         height: 100vh;
       }
       .navMenu {
         position: sticky;
-        top: 0;
         list-style: none;
-        margin: 0;
-        padding: 0;
         background: rgba(204, 255, 255, 0.2);
         float: right;
         width: 38%;
@@ -67,8 +84,8 @@
         padding: 1rem;
         margin: 1rem;
         background-color: rgba(204, 255, 255, 0.3);
-        border-radius: 15px;
-        width: 55%;
+        border-radius: 1.5rem;
+        width: 90%;
         display: inline-block;
       }
       .box li {
@@ -79,8 +96,8 @@
         border: 1px solid rgb(235, 152, 152);
         border-radius: 15px;
         background: #f4f4f4;
-        padding: 10px;
-        margin-bottom: 10px;
+        padding: 2rem;
+        margin-bottom: 1rem;
         opacity: 85%;
       }
 
@@ -105,6 +122,10 @@
     </style>
   </head>
   <body>
+    <div class="landing">
+      <h1>How am I able to solve your programming problems?</h1>
+      <h4>Look below</h4>
+    </div>
     <div class="main">
       <h1>Hello, my name is Ori!</h1>
 
